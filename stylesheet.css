@@ -95,15 +95,9 @@ a:hover {
 	}
 }
 
-.contact {
+.contact, .testimonial {
 	margin-bottom: 50px;
 	border-bottom: 2px #aaa dotted;
-}
-
-@media only screen and (min-width: 600px) {
-  .contact {
-	margin-bottom: 80px;
-	}
 }
 
 .contact__info {
@@ -136,8 +130,20 @@ img {
 	}
 }
 
+@media only screen and (min-width: 843px) {
+  img {
+	width: 320px;
+	}
+}
+
+
+
 ul li {
   margin: 7px 0px 0px -21px;
+}
+
+.testimonial {
+	padding-bottom: 50px;
 }
 
 .erfahrung {
