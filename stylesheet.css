@@ -3,6 +3,7 @@
   src: url('Vollkorn-Regular.woff2') format('woff2'),
        url('Vollkorn-Regular.woff') format('woff'),
        url('Vollkorn-Regular.ttf') format('truetype');
+	font-display: swap;
 }
 
 
