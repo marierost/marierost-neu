@@ -36,7 +36,8 @@ body {
 	background-repeat:repeat-y;
 	font-family: 'Vollkorn', serif;
 	margin-top:6%;
-	font-size: 16px;	background-size: 5.5%;
+	font-size: 16px;
+	background-size: 5.5%;
 	margin-left:16%;
 }
 
@@ -47,6 +48,7 @@ body {
 }
 
 h1 {
+	font-weight: 700;
 	font-size: 2.1rem;
 	line-height: 1.25;
 	color:#cc0000;
@@ -60,11 +62,13 @@ h1 {
 }
 
 h2 {
+	font-weight: 700;
 	font-size: 1.8rem;
 	margin-bottom: 0px;
 	}
 
 h3 {
+	font-weight: 700;
 	font-size: 1.1rem;
 	line-height:1.7rem;
 	color: #cc0000;
@@ -174,7 +178,37 @@ ul li {
 	margin-bottom: 100px;
 }
 
+.faq {
+	margin-bottom: 100px;
+}
+
 .impressum {
 	margin-bottom: 40px;
 	text-align: right;
+}
+
+details {
+	margin-bottom: 1rem;
+}
+
+details summary {
+	margin-bottom: 0.25rem;
+	cursor: pointer;
+	font-style: italic;
+}
+
+details summary::marker, details summary::-webkit-details-marker {
+	font-size: 1rem;
+}
+
+details p {
+	display: block;
+	margin-top: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	border-radius: 4px;
+}
+
+.nowrap {
+	white-space: nowrap;
 }
